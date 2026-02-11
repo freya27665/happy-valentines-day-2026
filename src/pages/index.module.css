@@ -8,12 +8,18 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  /* background-color: none; */
+  background-image: url("../../static/img/heart-background.png");
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
   }
+}
+
+.heroImage {
+  margin-bottom: 2rem;
 }
 
 .buttons {

@@ -107,11 +107,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Информация',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Как получить подарок',
+                to: '/docs/get-present',
               },
             ],
           },
