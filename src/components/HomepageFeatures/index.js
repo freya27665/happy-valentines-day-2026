@@ -14,6 +14,7 @@ const FeatureList = [
         Очень искренне люблю.<br/>
       </>
     ),
+    isBeat: false,
   },
   {
     title: '',
@@ -26,6 +27,8 @@ const FeatureList = [
         Очень-очень быстро мчат.<br/>
       </>
     ),
+    isBeat: true,
+
   },
   {
     title: '',
@@ -38,18 +41,23 @@ const FeatureList = [
         Всех любимей для меня.<br/>
       </>
     ),
+    isBeat: false,
+
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, isBeat}) {
+
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <Svg className={`${styles.featureSvg} ${isBeat ? styles.featureSvgBeat : ''}`} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         {/* <Heading as="h3">{title}</Heading> */}
         <p>{description}</p>
+        <p>{isBeat}</p>
+
       </div>
     </div>
   );

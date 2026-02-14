@@ -8,6 +8,9 @@
 .featureSvg {
   height: 20px;
   width: 20px;
+}
+
+.featureSvgBeat {
   animation: heartBeat 1s ease-in infinite;
 }
 
