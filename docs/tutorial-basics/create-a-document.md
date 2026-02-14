@@ -49,8 +49,8 @@ export default {
     'hello',
     {
       type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
+      label: 'Как получить подарок',
+      items: ['get-present'],
     },
   ],
 };
