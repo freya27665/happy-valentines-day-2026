@@ -113,8 +113,13 @@ const config = {
                 label: 'Как получить подарок',
                 to: '/docs/get-present',
               },
+              // {
+              //   label: 'Как получить подарок',
+              //   to: '/how-to-get-present',
+              // },
             ],
           },
+
           // {
           //   title: 'Community',
           //   items: [
