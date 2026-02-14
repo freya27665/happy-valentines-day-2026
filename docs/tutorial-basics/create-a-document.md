@@ -50,7 +50,7 @@ export default {
     {
       type: 'category',
       label: 'Как получить подарок',
-      items: ['get-present'],
+      items: ['tutorial-basics/create-a-document'],
     },
   ],
 };
