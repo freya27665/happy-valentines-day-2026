@@ -17,7 +17,7 @@ const FeatureList = [
   },
   {
     title: '',
-    Svg: require('@site/static/img/heart.svg').default,
+    Svg: require('@site/static/img/heart-svgrepo-com.svg').default,
     description: (
       <>
         С Днем влюбленных поздравляю.<br/>
@@ -29,7 +29,7 @@ const FeatureList = [
   },
   {
     title: '',
-    Svg: require('@site/static/img/heart.svg').default,
+    Svg: require('@site/static/img/heart-color.svg').default,
     description: (
       <>
         На Земле, такой огромной,<br/>
