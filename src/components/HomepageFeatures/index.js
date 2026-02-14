@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: '',
-    Svg: require('@site/static/img/heart.svg').default,
+    Svg: require('@site/static/img/fox-svgrepo-com.svg').default,
     description: (
       <>
         Даже если я когда-то<br/>
@@ -29,7 +29,7 @@ const FeatureList = [
   },
   {
     title: '',
-    Svg: require('@site/static/img/fox-svgrepo-com.svg').default,
+    Svg: require('@site/static/img/squirrel-svgrepo-com.svg').default,
     description: (
       <>
         На Земле, такой огромной,<br/>
